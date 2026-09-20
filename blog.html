@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <title>Blog &amp; Research Stories | Faed Ahmed Arnob</title>
+  <meta name="title" content="Blog &amp; Research Stories | Faed Ahmed Arnob">
+  <meta name="description" content="Personal essays, field notes, and technical stories on transportation engineering, 3D LiDAR, autonomous vehicle perception, and assistive spatial computing by Faed Ahmed Arnob.">
+  <link rel="canonical" href="https://faedarnob.github.io/blog.html">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg">
+
+  <!-- Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <!-- Scroll Reading Progress Indicator -->
+  <div id="scroll-progress"></div>
+
+  <!-- Global Sticky Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand" aria-label="Faed Ahmed Arnob Home">
+        <span class="brand-monogram">FA</span>
+        <div class="brand-name">
+          <span class="name">Faed Ahmed Arnob</span>
+          <span class="role-micro">Transportation AI · CUNY</span>
+        </div>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html#about" class="nav-link">About</a></li>
+          <li><a href="index.html#news" class="nav-link">News</a></li>
+          <li><a href="index.html#research" class="nav-link">Research</a></li>
+          <li><a href="index.html#publications" class="nav-link">Publications</a></li>
+          <li><a href="index.html#experience" class="nav-link">Experience</a></li>
+          <li><a href="index.html#teaching" class="nav-link">Teaching</a></li>
+          <li><a href="blog.html" class="nav-link active" style="color: var(--accent-cyan); font-weight: 700;"><i class="fas fa-feather-pointed"></i> Blog</a></li>
+          <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle light and dark theme">
+          <i class="fas fa-sun" id="theme-icon"></i>
+        </button>
+        <!-- Download CV Header Button -->
+        <a href="./assets/Faed_Ahmed_Arnob_Academic_CV.pdf" class="btn-cv-header" download="Faed_Ahmed_Arnob_Academic_CV.pdf" target="_blank" rel="noopener">
+          <i class="fas fa-file-pdf"></i>
+          <span>CV (PDF)</span>
+        </a>
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle mobile menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Blog Header -->
+    <header class="blog-header">
+      <div class="container">
+        <div class="section-tag">
+          <i class="fas fa-feather-pointed"></i> Stories, Field Notes &amp; Perspectives
+        </div>
+        <h1 class="section-title" style="font-size: 2.75rem; margin-top: 0.5rem;">
+          Research Stories &amp; Field Notes
+        </h1>
+        <p class="section-subtitle" style="margin: 0 auto; max-width: 650px;">
+          Perspectives on transportation engineering, 3D LiDAR perception, human-centered computing, and journeys from Dhaka's streets to New York.
+        </p>
+      </div>
+    </header>
+
+    <!-- Blog Posts Grid -->
+    <section class="section" style="padding-top: 2rem;">
+      <div class="container">
+        
+        <!-- Filter Pills -->
+        <div class="filter-container" id="blog-filters">
+          <button class="filter-btn active" data-filter="all">All Stories</button>
+          <button class="filter-btn" data-filter="journey">Personal Journey</button>
+          <button class="filter-btn" data-filter="transportation">Transportation &amp; AI</button>
+          <button class="filter-btn" data-filter="xr">XR &amp; Assistive Tech</button>
+        </div>
+
+        <div class="blog-posts-grid">
+
+          <!-- Post 1: Feature Personal Story -->
+          <article class="blog-card" data-category="journey transportation">
+            <div class="blog-card-img-wrap">
+              <img src="./assets/images/crash_heatmap_manhattan.png" alt="Manhattan urban intersection risk visualization" class="blog-card-img">
+              <span class="project-badge-overlay">Featured Story</span>
+            </div>
+            <div class="blog-card-body">
+              <div class="blog-meta-row">
+                <span><i class="far fa-calendar"></i> September 2026</span>
+                <span>•</span>
+                <span><i class="far fa-clock"></i> 6 min read</span>
+                <span>•</span>
+                <span style="color: var(--accent-cyan); font-weight: 700;">Personal Journey</span>
+              </div>
+              <h2 class="blog-card-title">
+                From Dhaka's Streets to AI &amp; Mobility: My Journey in Transportation, Vision &amp; Spatial Computing
+              </h2>
+              <p class="blog-card-excerpt">
+                How a passion for cross-country motorcycling through one of the world's most congested cities ignited an academic journey spanning edge AI on Raspberry Pis, an IIT fellowship in India, assistive AR for neurodiverse learners, and Ph.D. research at CUNY.
+              </p>
+              <div class="blog-card-footer">
+                <button class="btn-read-story" onclick="openStoryModal('story-dhaka-journey')">
+                  <span>Read Full Story</span> <i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Post 2: 3D LiDAR & VLMs -->
+          <article class="blog-card" data-category="transportation">
+            <div class="blog-card-img-wrap">
+              <img src="./assets/images/lidar_pipeline.svg" alt="LiDAR VLM pipeline" class="blog-card-img">
+              <span class="project-badge-overlay">Technical Note</span>
+            </div>
+            <div class="blog-card-body">
+              <div class="blog-meta-row">
+                <span><i class="far fa-calendar"></i> Spring 2026</span>
+                <span>•</span>
+                <span><i class="far fa-clock"></i> 4 min read</span>
+                <span>•</span>
+                <span style="color: var(--accent-cyan); font-weight: 700;">3D LiDAR &amp; VLMs</span>
+              </div>
+              <h2 class="blog-card-title">
+                Vision-Language Models for 3D LiDAR: Closing the Autonomous Vehicle Ground Truth Gap
+              </h2>
+              <p class="blog-card-excerpt">
+                Extracting accurate bumper-to-bumper vehicle dimensions from roadside LiDAR point clouds is notoriously challenging without ground-truth catalogs. Here is how we leveraged VLMs for automated verification, achieving an average MAE of 0.298 meters.
+              </p>
+              <div class="blog-card-footer">
+                <button class="btn-read-story" onclick="openStoryModal('story-lidar-vlm')">
+                  <span>Read Technical Note</span> <i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Post 3: IEEE AR Workshop -->
+          <article class="blog-card" data-category="xr">
+            <div class="blog-card-img-wrap">
+              <img src="./assets/images/arise_diagram.svg" alt="ARise multimodal sensing" class="blog-card-img">
+              <span class="project-badge-overlay">Workshop Recap</span>
+            </div>
+            <div class="blog-card-body">
+              <div class="blog-meta-row">
+                <span><i class="far fa-calendar"></i> June 2024</span>
+                <span>•</span>
+                <span><i class="far fa-clock"></i> 3 min read</span>
+                <span>•</span>
+                <span style="color: var(--accent-cyan); font-weight: 700;">Augmented Reality</span>
+              </div>
+              <h2 class="blog-card-title">
+                Bridging Two Realities: Reflections from My IEEE Workshop on Augmented Reality in Modern Robotics
+              </h2>
+              <p class="blog-card-excerpt">
+                Reflections and takeaways from serving as the chief speaker at the IEEE ULAB Robotics &amp; Automation Society SBC workshop, exploring how spatial computing and WebAR bridge human intention and robotic autonomy.
+              </p>
+              <div class="blog-card-footer">
+                <button class="btn-read-story" onclick="openStoryModal('story-ieee-workshop')">
+                  <span>Read Recap</span> <i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Modal Full Story Reader -->
+    <div class="modal-overlay" id="story-modal" onclick="closeStoryModal(event)">
+      <div class="modal-content-wrap" onclick="event.stopPropagation()">
+        <button class="modal-close-btn" onclick="closeStoryModal()" aria-label="Close modal">
+          <i class="fas fa-times"></i>
+        </button>
+        <div id="modal-body-container">
+          <!-- Dynamic Content Injected Here -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Hidden Full Story Templates (Injected dynamically into reader) -->
+    <template id="story-dhaka-journey">
+      <div class="post-full-header">
+        <span class="pub-badge badge-trb">Featured Story · Personal Journey</span>
+        <h1 style="font-size: 2.1rem; margin: 0.75rem 0 0.5rem; line-height: 1.25;">
+          From Dhaka's Streets to AI &amp; Mobility: My Journey in Transportation, Vision &amp; Spatial Computing
+        </h1>
+        <div class="blog-meta-row">
+          <span>By <strong>Faed Ahmed Arnob</strong></span>
+          <span>•</span>
+          <span>September 2026</span>
+          <span>•</span>
+          <span>6 min read</span>
+        </div>
+      </div>
+
+      <div class="post-full-body">
+        <p>
+          Long ago, the grand vision for computational scientists was to build machines capable of learning and thinking like humans. Today, as that boundary blurs, we face an even more urgent challenge: <strong>how can we harness computing power to solve the critical physical challenges of safety, mobility, and human wellbeing?</strong>
+        </p>
+
+        <h2>The Catalyst: Two Wheels in One of the World's Densest Cities</h2>
+        <p>
+          My choice of an engineering path was inspired by a lifelong fascination with mathematics, physics, and science in action for the benefit of society. But my deep passion for transportation engineering and traffic sensing wasn't born in a sterile lecture hall—it was forged on the streets of Dhaka on two wheels.
+        </p>
+        <p>
+          As an avid cross-country motorcyclist in Bangladesh, I navigated roads where lane discipline was practically non-existent, congestion was crippling, and safety risks were constant. In a city of over 20 million people, you realize very quickly that pouring more asphalt or widening roads cannot solve urban mobility on its own. What was desperately missing was <em>intelligence</em>—the ability to perceive, quantify, and understand roadway dynamics in real time.
+        </p>
+
+        <blockquote>
+          "Experiencing the daily friction of congested roads firsthand instilled in me a conviction: technology must not just be theoretical; it must directly safeguard human life."
+        </blockquote>
+
+        <h2>Edge AI on a Raspberry Pi: The Lane Violation System</h2>
+        <p>
+          During my undergraduate studies in Computer Science &amp; Engineering at BRAC University (where I graduated with a 3.73 CGPA and 70% merit scholarships), I began experimenting with microcontrollers and System-on-a-Chip (SoC) platforms like the Raspberry Pi.
+        </p>
+        <p>
+          For my undergraduate thesis, our team asked a bold question: <em>Can we turn existing, low-cost traffic surveillance cameras into automated lane-rule enforcement devices?</em> We engineered an edge device combining custom YOLOv5 object detection, Hough-line transforms, and Canny edge algorithms to detect vehicle defaulters even when road lane markers were worn and faded.
+        </p>
+        <p>
+          The system achieved <strong>78% detection accuracy</strong> operating in real time directly on resource-constrained hardware. It was accepted at the 2019 International Conference on Advances in Emerging Computing Technologies in Saudi Arabia, published by IEEE, and awarded <strong>Best Presentation in Intelligent Systems</strong>. That moment proved to me the transformative power of practical computer vision.
+        </p>
+
+        <h2>The BDSET Fellowship: Deep Learning &amp; Spatial Computing at IIT</h2>
+        <p>
+          After graduating, I briefly joined BRAC University as a Lecturer in Spring 2022, teaching structured programming in C, Python, and Java. Shortly after, I was selected among the top 30 candidates nationwide through a rigorous competitive exam for a prestigious fellowship fully funded by the Government of India and the Bangladesh Hi-Tech Park Authority (BHTPA).
+        </p>
+        <p>
+          For six months, including a one-month internship at the <strong>Indian Institute of Technology (Guwahati &amp; Kharagpur)</strong>, I immersed myself in deep learning, Augmented Reality, Virtual Reality, and Natural Language Processing (building domain-specific Bangla GloVe embeddings). It expanded my horizon from 2D vision to full 3D spatial computing.
+        </p>
+
+        <h2>Multimodal Sensing: AR and Biometric Vitals for Autism</h2>
+        <p>
+          Returning from India, I joined the Advanced Intelligent Multidisciplinary Lab (UIU/ULAB) as a Research Engineer. In collaboration with Dr. Doulah, we initiated <strong>ARise</strong>, an assistive educational Augmented Reality platform for children with Autism Spectrum Disorder (ASD).
+        </p>
+        <p>
+          We realized that measuring engagement in neurodivergent learners requires more than subjective surveys. We integrated <strong>wearable smartwatches (Google Fitbit)</strong> to tap into raw accelerometer sensor data, pairing it with automated computer vision video frame analysis to capture gaze stability and stimuli kinetics. That work resulted in an MDPI journal publication and taught me how multimodal sensing can bridge machine intelligence with human cognitive behavior.
+        </p>
+
+        <h2>The New York Chapter: 3D LiDAR, ADAS &amp; TRB 2026</h2>
+        <p>
+          In Fall 2025, I was awarded a 5-year Ph.D. Fellowship at the Grove School of Engineering at The City College of New York (CUNY), joining the <strong>AI &amp; Mobility Research Lab</strong> under <strong>Dr. Yiqiao Li</strong> in Transportation Engineering.
+        </p>
+        <p>
+          Here, all the threads of my background—computer science, 3D spatial point clouds, edge vision, and transportation systems—converge. Over the past year:
+        </p>
+        <ul>
+          <li>We developed an infrastructure-based 3D LiDAR framework extracting bumper-to-bumper vehicle dimensions, introducing an automated <strong>Vision-Language Model (VLM)</strong> validation pipeline that achieves an MAE of 0.298m.</li>
+          <li>We completed our study on <strong>Infrastructure–ADAS Interactions in Urban Crash Risk</strong>, fusing computer vision surrogate safety metrics with road geometry to understand crash risks across Manhattan. This research was officially accepted at the <strong>105th Transportation Research Board (TRB) Annual Meeting (2026)</strong> in Washington, D.C.</li>
+        </ul>
+
+        <h2>Looking Ahead</h2>
+        <p>
+          Outside the lab, my passions remain storytelling and cycling—creating films for YouTube and leading community rides with BDCyclists. These creative pursuits keep me grounded. In the long term, my goal is to lead innovative transportation and spatial computing research, teach and mentor future engineers, and build technologies that make physical mobility safer, more accessible, and more humane for all.
+        </p>
+      </div>
+    </template>
+
+    <template id="story-lidar-vlm">
+      <div class="post-full-header">
+        <span class="pub-badge badge-ieee">Technical Note · Perception</span>
+        <h1 style="font-size: 2.1rem; margin: 0.75rem 0 0.5rem; line-height: 1.25;">
+          Vision-Language Models for 3D LiDAR: Closing the Autonomous Vehicle Ground Truth Gap
+        </h1>
+        <div class="blog-meta-row">
+          <span>By <strong>Faed Ahmed Arnob</strong></span>
+          <span>•</span>
+          <span>Spring 2026</span>
+          <span>•</span>
+          <span>4 min read</span>
+        </div>
+      </div>
+
+      <div class="post-full-body">
+        <p>
+          Infrastructure-based roadside LiDAR sensors are becoming indispensable for digital twins, smart intersections, and autonomous vehicle safety validation. However, evaluating point cloud dimension extraction (such as bumper-to-bumper vehicle length) has long faced an intractable bottleneck: <strong>the lack of scalable, automated ground truth data</strong>.
+        </p>
+
+        <h2>The Bottleneck in Roadside Point Clouds</h2>
+        <p>
+          While LiDAR provides dense 3D spatial points, occlusions, vehicle speed variations, and sensor mounting angles make bumper-to-bumper bounding boxes noisy. Traditionally, researchers either relied on manual tape measurements of test vehicles or labor-intensive human annotations. Neither scales to tens of thousands of passing vehicles across diverse makes and models.
+        </p>
+
+        <h2>Our Approach: Trajectory-Aligned Morphological Modeling</h2>
+        <p>
+          In our framework at the CUNY AI &amp; Mobility Research Lab, we developed a trajectory-aligned morphological extraction pipeline that projects raw 3D point cloud slices along the vehicle's dynamic motion vector. This removes stray reflections and isolates true vehicle contours.
+        </p>
+
+        <h2>Leveraging VLMs as Automated Judges</h2>
+        <p>
+          To validate measurements autonomously, we coupled our pipeline with modern Vision-Language Models (VLMs). The VLM identifies vehicle make, model, and year from paired camera footage, queries manufacturer dimensional catalogs, and automatically judges point cloud estimations against exact OEM ground truth.
+        </p>
+        <blockquote>
+          "Evaluated across complex urban highway traffic, the framework achieved an average Mean Absolute Error (MAE) of <strong>0.298 meters</strong> and a MAPE of <strong>5.2%</strong> across passenger cars, SUVs, and heavy commercial vehicles."
+        </blockquote>
+        <p>
+          This automated loop eliminates manual benchmarking and opens up high-fidelity, real-time vehicle dimensional profiling for connected autonomous infrastructure.
+        </p>
+      </div>
+    </template>
+
+    <template id="story-ieee-workshop">
+      <div class="post-full-header">
+        <span class="pub-badge badge-poster">Workshop Recap · Robotics &amp; XR</span>
+        <h1 style="font-size: 2.1rem; margin: 0.75rem 0 0.5rem; line-height: 1.25;">
+          Bridging Two Realities: Reflections from My IEEE Workshop on Augmented Reality in Modern Robotics
+        </h1>
+        <div class="blog-meta-row">
+          <span>By <strong>Faed Ahmed Arnob</strong></span>
+          <span>•</span>
+          <span>June 2024</span>
+          <span>•</span>
+          <span>3 min read</span>
+        </div>
+      </div>
+
+      <div class="post-full-body">
+        <p>
+          In June 2024, I had the privilege of serving as the chief speaker and instructor for an interactive technical workshop titled <strong>"Bridging Reality: Augmented Reality in Modern Robotics"</strong>, organized by the IEEE Robotics and Automation Society SBC at the University of Liberal Arts Bangladesh (ULAB).
+        </p>
+
+        <h2>Why AR and Robotics Belong Together</h2>
+        <p>
+          For decades, robotic systems operated as "black boxes"—executing autonomous path planning, sensor fusion, and spatial localization with zero intuitive visual feedback for human operators. When a human cannot perceive what a robot "sees", trust degrades and collaborative teleoperation becomes clumsy.
+        </p>
+        <p>
+          Augmented Reality transforms this dynamic. By overlaying real-time LiDAR point clouds, planned trajectory splines, and sensor uncertainty cones directly into the operator's field of view through WebAR and headsets, human-robot collaboration becomes seamless.
+        </p>
+
+        <h2>Hands-on Demonstrations</h2>
+        <p>
+          During the workshop, we walked attendees through building browser-based WebAR interfaces and Unity 3D pipelines connected to simulated robotic agents. We demonstrated how spatial computing allows operators to define waypoints, inspect obstacle bounding boxes, and control robotic end-effectors in real time.
+        </p>
+        <p>
+          The energy and enthusiasm from the engineering students reaffirmed my belief: spatial computing is not merely an entertainment medium—it is the foundational interface for the future of robotics and autonomous transportation.
+        </p>
+        <p>
+          <a href="https://www.linkedin.com/posts/faed-ahmed-arnob-37b50b139_ieee-ulab-robotics-activity-7207677874797989888-otCb?utm_source=share&utm_medium=member_desktop&rcm=ACoAACG2mE8BryKGJ59ydhkf_pX8FHnnMmXXd7c" target="_blank" rel="noopener" class="link-badge">
+            <i class="fab fa-linkedin"></i> View Original Event Post on LinkedIn
+          </a>
+        </p>
+      </div>
+    </template>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="index.html#about">About</a>
+        <a href="index.html#research">Research</a>
+        <a href="index.html#publications">Publications</a>
+        <a href="index.html#experience">Experience</a>
+        <a href="blog.html">Blog</a>
+        <a href="https://orcid.org/0000-0001-6531-8472" target="_blank" rel="noopener">ORCID</a>
+        <a href="https://www.linkedin.com/in/faed-ahmed-arnob-37b50b139/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://scholar.google.com/citations?user=-o0nhzkAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+        <a href="https://github.com/faedarnob" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <p>&copy; 2026 Faed Ahmed Arnob. Built with clean HTML5/CSS/JS. Hosted on GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="./script.js"></script>
+  <script>
+    // Blog Modal Reader Logic
+    function openStoryModal(templateId) {
+      const template = document.getElementById(templateId);
+      const container = document.getElementById('modal-body-container');
+      const modal = document.getElementById('story-modal');
+      if (template && container && modal) {
+        container.innerHTML = template.innerHTML;
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+    }
+
+    function closeStoryModal(e) {
+      if (!e || e.target.id === 'story-modal' || e.target.closest('.modal-close-btn')) {
+        const modal = document.getElementById('story-modal');
+        if (modal) {
+          modal.classList.remove('active');
+          document.body.style.overflow = 'auto';
+        }
+      }
+    }
+
+    // Category filter for blog posts
+    document.querySelectorAll('#blog-filters .filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('#blog-filters .filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.getAttribute('data-filter');
+        document.querySelectorAll('.blog-card').forEach(card => {
+          const cat = card.getAttribute('data-category') || '';
+          if (filter === 'all' || cat.includes(filter)) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

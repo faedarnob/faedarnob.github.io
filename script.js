@@ -237,6 +237,17 @@ function initCopyButtons() {
       });
     });
   });
+
+  // Copy Discord handle button
+  document.querySelectorAll('.btn-copy-discord').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const discord = 'faedahmedarnob';
+      navigator.clipboard.writeText(discord).then(() => {
+        showToast('Discord username copied: faedahmedarnob');
+      });
+    });
+  });
 }
 
 /* --- Toast Feedback Notification --- */
