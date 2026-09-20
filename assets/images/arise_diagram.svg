@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="arBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" rx="16" fill="url(#arBg)"/>
+  
+  <!-- AR App Screen -->
+  <g transform="translate(45, 60)">
+    <rect width="135" height="195" rx="18" fill="#1e293b" stroke="#ec4899" stroke-width="2"/>
+    <rect x="10" y="15" width="115" height="145" rx="10" fill="#090d16"/>
+    <!-- 3D Polyhedron -->
+    <polygon points="67,42 102,62 102,102 67,122 32,102 32,62" fill="none" stroke="#f43f5e" stroke-width="2.5"/>
+    <polygon points="67,42 67,82 102,102" fill="#fda4af" opacity="0.35"/>
+    <polygon points="67,82 67,122 32,102" fill="#fb7185" opacity="0.25"/>
+    <text x="67" y="178" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-weight="bold" fill="#fda4af" text-anchor="middle">AR Mobile App</text>
+  </g>
+
+  <!-- Central Processing Engine -->
+  <g transform="translate(210, 70)">
+    <rect width="180" height="175" rx="14" fill="#18182e" stroke="#8b5cf6" stroke-width="1.5"/>
+    <text x="90" y="32" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="bold" fill="#c4b5fd" text-anchor="middle">Multimodal Analytics</text>
+    <line x1="25" y1="45" x2="155" y2="45" stroke="#4c1d95" stroke-width="1.5"/>
+    <text x="90" y="70" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" fill="#ddd6fe" text-anchor="middle">Video Frame Analysis</text>
+    <text x="90" y="90" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="10" fill="#a78bfa" text-anchor="middle">Attention &amp; Eye Gaze</text>
+    <rect x="25" y="108" width="130" height="42" rx="6" fill="#2e1065" stroke="#7c3aed" stroke-width="1"/>
+    <text x="90" y="126" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="10" font-weight="bold" fill="#e9d5ff" text-anchor="middle">Stimuli Tracking</text>
+    <text x="90" y="141" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" fill="#c084fc" text-anchor="middle">Response Kinetics</text>
+  </g>
+
+  <!-- Wearable Device -->
+  <g transform="translate(420, 60)">
+    <rect width="135" height="195" rx="18" fill="#1e293b" stroke="#10b981" stroke-width="2"/>
+    <rect x="42" y="15" width="50" height="165" rx="10" fill="#334155" stroke="#475569" stroke-width="1"/>
+    <rect x="32" y="55" width="70" height="85" rx="12" fill="#022c22" stroke="#10b981" stroke-width="2"/>
+    <path d="M 40 98 L 52 98 L 57 82 L 65 118 L 73 90 L 78 98 L 94 98" fill="none" stroke="#34d399" stroke-width="2.5"/>
+    <text x="67" y="178" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-weight="bold" fill="#6ee7b7" text-anchor="middle">Wearable Vitals</text>
+  </g>
+
+  <!-- Connectors -->
+  <path d="M 180 157 L 210 157" stroke="#ec4899" stroke-width="2" stroke-dasharray="3,3"/>
+  <path d="M 390 157 L 420 157" stroke="#10b981" stroke-width="2" stroke-dasharray="3,3"/>
+
+  <text x="300" y="318" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" fill="#64748b" text-anchor="middle">ARise: Multimodal Behavioral Tracking &amp; Sensor Analytics for ASD</text>
+</svg>
