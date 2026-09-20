@@ -1218,14 +1218,59 @@ button {
 
 .teaching-list li {
   display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.teaching-list li:last-child {
+  border-bottom: none;
+}
+
+.teaching-item-header {
+  display: flex;
   align-items: flex-start;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+}
+
+.teaching-item-header i {
+  color: var(--accent-cyan);
+  font-size: 0.8rem;
+  margin-top: 0.35rem;
+  flex-shrink: 0;
+}
+
+.teaching-item-sub {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  padding-left: 1.3rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   gap: 0.5rem;
 }
 
-.teaching-list li i {
+.link-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.76rem;
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-full);
+  background: var(--badge-bg);
   color: var(--accent-cyan);
-  font-size: 0.8rem;
-  margin-top: 0.3rem;
+  border: 1px solid var(--badge-border);
+  transition: all var(--transition-fast);
+}
+
+.link-badge:hover {
+  background: var(--accent-cyan);
+  color: #ffffff;
+  transform: translateY(-1px);
 }
 
 /* --- Skills Matrix Section --- */
