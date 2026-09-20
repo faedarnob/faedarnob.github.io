@@ -108,6 +108,14 @@ function initMobileMenu() {
       menuBtn.innerHTML = '<i class="fas fa-bars"></i>';
     });
   });
+
+  // Close when tapping outside the menu
+  document.addEventListener('click', (e) => {
+    if (navMenu.classList.contains('open') && !navMenu.contains(e.target) && !menuBtn.contains(e.target)) {
+      navMenu.classList.remove('open');
+      menuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+    }
+  });
 }
 
 /* --- Project Category Filters --- */

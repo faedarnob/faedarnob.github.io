@@ -1779,14 +1779,14 @@ button {
     top: 4.25rem;
     left: 0;
     right: 0;
-    background: var(--bg-glass);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    background: var(--bg-surface);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
     flex-direction: column;
     padding: 2rem 1.5rem;
     gap: 1.25rem;
     border-bottom: 1px solid var(--border-subtle);
-    box-shadow: var(--shadow-lg);
+    box-shadow: var(--shadow-xl);
     transform: translateY(-150%);
     transition: transform var(--transition-normal);
   }
@@ -1804,7 +1804,7 @@ button {
   }
 
   .section {
-    padding: 4rem 0;
+    padding: 3.5rem 0;
   }
 
   .section-title {
@@ -1813,6 +1813,56 @@ button {
 
   .projects-grid {
     grid-template-columns: 1fr;
+  }
+
+  .blog-posts-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .modal-content-wrap {
+    padding: 1.75rem 1.25rem;
+    max-height: 90vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .hero-headline {
+    font-size: 1.85rem;
+  }
+
+  .section-title {
+    font-size: 1.55rem;
+  }
+
+  .bio-card {
+    padding: 1.75rem 1.25rem;
+  }
+
+  .pub-card {
+    padding: 1.25rem 1rem;
+  }
+
+  .social-pill {
+    padding: 0.45rem 0.75rem;
+    font-size: 0.8rem;
+  }
+
+  .modal-content-wrap {
+    padding: 1.5rem 1rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+    justify-content: center;
   }
 }
 
